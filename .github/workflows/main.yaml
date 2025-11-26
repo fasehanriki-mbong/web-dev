@@ -9,7 +9,7 @@ on:
 env:
   REGISTRY: ghcr.io/fasehanriki-mbong/web-dev
   GH_REGISTRY: ghcr.io
-  IMAGE_NAME: your-app-name
+  IMAGE_NAME: nginx:alpine
   DOCKER_BUILDKIT: 1
 
 jobs:
