@@ -2,11 +2,6 @@
 
 FROM nginx
 
-# Install dependencies and create necessary directories
-RUN apk add --no-cache \
-    nodejs \
-    npm \
-    && mkdir -p /usr/share/nginx/html
 
 # Set working directory
 WORKDIR /app
