@@ -1,5 +1,6 @@
 # Use official nginx image
-FROM nginx:alpine
+
+FROM nginx
 
 # Install dependencies and create necessary directories
 RUN apk add --no-cache \
