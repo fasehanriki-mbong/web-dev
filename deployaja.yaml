@@ -8,4 +8,4 @@ resources:
   cpu: 500m
   memory: 512Mi
   replicas: 1 
-domain: my-app.deployaja.id
+domain: my-app.deployaja99.id
